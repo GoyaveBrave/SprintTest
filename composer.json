@@ -1,0 +1,18 @@
+{
+    "name": "sprintechnology/test",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "authors": [
+        {
+            "name": "Beneddine Majid",
+            "email": "majid.web98@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    },
+    "require": {}
+}

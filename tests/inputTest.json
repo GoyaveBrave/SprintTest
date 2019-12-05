@@ -1,0 +1,28 @@
+[
+    
+    {
+      "transport": "bus",
+      "number": "1212",
+      "gate": "12A",
+      "seat": "121A",
+      "departure": "New-York",
+      "arrival": "Washington"
+    },
+    {
+      "transport": "bus",
+      "number": "1111",
+      "gate": "11B",
+      "seat": "111B",
+      "departure": "Paris",
+      "arrival": "Madrid"
+    },
+    {
+      "transport": "avion",
+      "number": "SK1010",
+      "gate": "10A",
+      "seat": "100A",
+      "departure": "Washington",
+      "arrival": "Paris"
+    }
+    
+  ]

@@ -1,12 +1,10 @@
 <?php
 namespace App;
-use App\Model\entity\Database;
 use App\Controller\CardsController;
 
-require_once "Model/Entity/Connection.php";
-require_once "Controller/CardsController.php";
 
-Database::getPdo();
+require_once "src/Controller/CardsController.php";
+
 
 try {
     $controller = new CardsController;

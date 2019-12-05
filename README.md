@@ -6,3 +6,4 @@ et le remettre dans l'ordre et enfin de le remettre au format inital (JSON).
 
 Les tests sont au nombre de deux, un test permettant de vérifier que la première conversion du tableau JSON en tableau PHP, puis le deuxième
 quant à lui de vérifier l'inverse. 
+Pour un test plus "visuel", il suffit d'exectuer l'action "converter" dans l'url, puis de faire un "echo $converted_json" à la ligne 37 du "CardsController" avec un logiciel comme Insomnia ou PostMan. 

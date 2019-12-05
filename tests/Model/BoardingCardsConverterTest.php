@@ -6,6 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class ArrayTest extends TestCase
 {
+    //Je test que ma conversion du JSON au PHP me retourne bien array en PHP
     public function testIsArray()
     {
         require_once 'src/Model/BoardingCardsConverter.php';
@@ -15,15 +16,4 @@ class ArrayTest extends TestCase
         $this->assertIsArray($result);
     }
 
-    public function testIsJson()
-    {
-        require_once 'src/Model/BoardingCardsConverter.php';
-        $BoardingCardsConverter = new BoardingCardsConverter();
-        $result = $BoardingCardsConverter->convertJson($converted);
-        $this->assertJsonStringEqualsJsonFile(
-            '/inputTest.json', json_encode($converted)
-        );
-
-
-    }
 }

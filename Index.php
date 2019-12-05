@@ -5,7 +5,6 @@ use App\Controller\CardsController;
 
 require_once "src/Controller/CardsController.php";
 
-
 try {
     $controller = new CardsController;
     if (!empty($_GET['action'])) {
